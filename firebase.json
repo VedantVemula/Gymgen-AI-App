@@ -1,0 +1,45 @@
+{
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default"
+    }
+  ],
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "gymgen-ai-128e2",
+          "appId": "1:408023399527:android:5ba69c29fc9dffdcbb28c2",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "gymgen-ai-128e2",
+          "configurations": {
+            "android": "1:408023399527:android:5ba69c29fc9dffdcbb28c2",
+            "ios": "1:408023399527:ios:66a86b700725b0f5bb28c2",
+            "macos": "1:408023399527:ios:66a86b700725b0f5bb28c2",
+            "web": "1:408023399527:web:a95b6bd326167436bb28c2",
+            "windows": "1:408023399527:web:eab60e0bb15cea71bb28c2"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

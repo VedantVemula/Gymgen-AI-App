@@ -1,0 +1,63 @@
+name: gymgen_ai
+description: AI Powered Fitness Coach
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5+1
+  google_fonts: ^6.3.2
+  flutter_animate: ^4.5.2
+  intl: ^0.19.0
+  shared_preferences: ^2.5.5
+  http: ^1.5.0
+  image_picker: ^1.2.0
+  fl_chart: ^0.69.2
+  flutter_markdown: ^0.7.4+3
+
+  # Firebase (Auth stays; data now lives in MongoDB)
+  firebase_core: ^4.15.0
+  firebase_auth: ^6.7.0
+  google_sign_in: ^7.2.0
+  cloud_firestore: ^6.10.0
+  firebase_app_check: ^0.4.8
+  
+
+  # File paths
+  path: ^1.9.1
+  path_provider: ^2.1.5
+
+  # Exercise video playback
+  video_player: ^2.14.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.1
+  
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  min_sdk_android: 21
+  
+  # Modern Android "Adaptive Icon" settings
+  adaptive_icon_background: "#05061A" # Matches your galaxy dark space background
+  adaptive_icon_foreground: "assets/images/app_icon.png"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/gymgen_logo.png
+    - assets/exercises/
+    - assets/videos/

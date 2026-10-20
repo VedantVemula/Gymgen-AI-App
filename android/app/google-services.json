@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "408023399527",
+    "project_id": "gymgen-ai-128e2",
+    "storage_bucket": "gymgen-ai-128e2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408023399527:android:5ba69c29fc9dffdcbb28c2",
+        "android_client_info": {
+          "package_name": "com.example.gymgen_ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408023399527-7h041mfgch7bgjqfn65ulsnit508sj41.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gymgen_ai",
+            "certificate_hash": "68bad0a8faaf3008068ccbcf09d0ae3f1962d62e"
+          }
+        },
+        {
+          "client_id": "408023399527-upr2ccihst7av1dnj754qhptee3crbdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2SLl9HyPo5x0lxBFNNWXiCQ5RxtoCEpc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408023399527-upr2ccihst7av1dnj754qhptee3crbdn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "408023399527-b9cr44v660pas64nppp9vq6jnsgmik8t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.gymgenAi"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
